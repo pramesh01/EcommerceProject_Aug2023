@@ -28,4 +28,14 @@ public class Register {
 	public void i_should_see_that_the_user_account_has_successfully_created() {
 	   
 	}
+	
+	@Then("I should see that the User Account is not created")
+	public void i_should_see_that_the_user_account_is_not_created() {
+	    
+	}
+	@Then("I should see the error messages informing the user to fill the mandatory fields")
+	public void i_should_see_the_error_messages_informing_the_user_to_fill_the_mandatory_fields() {
+	    
+	}
+
       }
